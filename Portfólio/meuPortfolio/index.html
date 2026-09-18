@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Rafael Pires de Souza | Dev</title>
+    
+    <link rel="icon" href="Foto Perfil Profissional_2.jpg" type="image/jpeg">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    
+    <nav class="floating-nav">
+        <ul>
+            <li><a href="#home"><i class="fas fa-home"></i> <span data-i18n="nav-home">Início</span></a></li>
+            <li><a href="#journey"><i class="fas fa-route"></i> <span data-i18n="nav-journey">Jornada</span></a></li>
+            <li><a href="#projects"><i class="fas fa-code"></i> <span data-i18n="nav-projects">Projetos</span></a></li>
+            <li><a href="#terminal-section"><i class="fas fa-terminal"></i> <span data-i18n="nav-terminal">Terminal</span></a></li>
+            <li><button id="lang-toggle" class="lang-btn">🇺🇸 EN</button></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        
+        <section id="home" class="hero fade-in">
+            <div class="profile-card glass">
+                <div class="profile-header">
+                    <div class="avatar-container">
+
+                        <img src="Foto Perfil Profissional_2.jpg" alt="Foto de José Rafael" class="profile-photo">
+                    </div>
+                    <div class="header-text">
+                        <h1 class="glitch" data-text="José Rafael (Zé Rafael)">José Rafael Pires de Souza</h1>
+                        <h2 class="typing-effect" data-i18n="hero-role">&lt; Desenvolvedor de Software /&gt;</h2>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> <span data-i18n="hero-location">Floresta / Maringá, PR</span></p>
+                    </div>
+                </div>
+                
+                <div class="tech-scroll-container">
+                    <div class="tech-track">
+                        <span><i class="fab fa-react"></i> React</span>
+                        <span><i class="fab fa-js"></i> JavaScript</span>
+                        <span><i class="fab fa-java"></i> Java</span>
+                        <span><i class="fas fa-leaf"></i> Spring Boot</span>
+                        <span><i class="fab fa-python"></i> Python</span>
+                        <span><i class="fab fa-git-alt"></i> Git</span>
+                        
+                        <span><i class="fab fa-react"></i> React</span>
+                        <span><i class="fab fa-js"></i> JavaScript</span>
+                        <span><i class="fab fa-java"></i> Java</span>
+                        <span><i class="fas fa-leaf"></i> Spring Boot</span>
+                        <span><i class="fab fa-python"></i> Python</span>
+                        <span><i class="fab fa-git-alt"></i> Git</span>
+                    </div>
+                </div>
+
+                <div class="actions">
+                    <a href="https://github.com/zrpires" target="_blank" class="btn btn-github"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://linkedin.com/in/zrpires" target="_blank" class="btn btn-linkedin"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://twitter.com/zrpires" target="_blank" class="btn btn-twitter"><i class="fa-brands fa-x-twitter"></i> X</a>
+                    <a href="https://instagram.com/zrpires" target="_blank" class="btn btn-instagram"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="mailto:joseraffael2003@gmail.com" class="btn btn-email"><i class="fas fa-envelope"></i> <span data-i18n="btn-contact">Contato</span></a>
+                </div>
+                
+                <div style="margin-top: 1.5rem; color: var(--text-muted); font-size: 0.8rem; text-align: center;">
+
+                </div>
+            </div>
+        </section>
+
+        <section id="journey" class="journey-section fade-in">
+            <h3 class="section-title"><i class="fas fa-route"></i> <span data-i18n="title-journey">Linha do Tempo & Formação</span></h3>
+            <div class="timeline glass">
+                <div class="timeline-item">
+                    <div class="timeline-date">2022 - 2026</div>
+                    <div class="timeline-content">
+                        <h4 data-i18n="time1-title">Mix Cosméticos</h4>
+                        <p data-i18n="time1-desc">Auxiliar Administrativo e Auditoria. Gestão analítica de estoque em 15 filiais, auditoria de ERP e controle fiscal. Forte base em mapeamento de processos corporativos.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Fev / 2024</div>
+                    <div class="timeline-content">
+                        <h4 data-i18n="time2-title">Início na UniCesumar (ADS)</h4>
+                        <p data-i18n="time2-desc">Ingresso na graduação em Análise e Desenvolvimento de Sistemas. Aprofundamento em lógica, estrutura de dados, Java e Engenharia de Software.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h4 data-i18n="time3-title">Alura & Especializações</h4>
+                        <p data-i18n="time3-desc">Formação em Front-End Developer e Python pela Alura. Foco em construir interfaces web modernas, responsivas e acessíveis (React, JS ES6+, HTML5/CSS3).</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Out / 2024</div>
+                    <div class="timeline-content">
+                        <h4 data-i18n="time4-title">LD Hospitalar</h4>
+                        <p data-i18n="time4-desc">Gestão de E-commerce e Operações. Trabalho direto com fluxo de faturamento fiscal e otimização de catálogos online (Mercado Livre e Shopee).</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2026</div>
+                    <div class="timeline-content">
+                        <h4 data-i18n="time5-title">Projeto: Jogo da Memória Web</h4>
+                        <p data-i18n="time5-desc">Criação de um sistema com foco em acessibilidade para crianças de 6 a 12 anos. Implementação de alto contraste e navegação via teclado validada em escolas.</p>
+                    </div>
+                </div>
+                <div class="timeline-item highlight">
+                    <div class="timeline-date">Jul / 2026</div>
+                    <div class="timeline-content">
+                        <h4 data-i18n="time6-title">Previsão de Formatura</h4>
+                        <p data-i18n="time6-desc">Conclusão da graduação (ADS). Buscando oportunidades como Desenvolvedor Júnior para impactar positivamente o mercado de tecnologia.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section fade-in">
+            <h3 class="section-title"><i class="fas fa-project-diagram"></i> <span data-i18n="title-projects">Projetos em Destaque</span></h3>
+            <div class="project-showcase glass">
+                <div class="project-content">
+                    <h4 data-i18n="proj1-title">🧩 Jogo da Memória Web (Acessibilidade)</h4>
+                    <p class="project-desc" data-i18n="proj1-desc">Desenvolvido em parceria com ambiente escolar para crianças de 6 a 12 anos com necessidades visuais e auditivas. Focado em inclusão real.</p>
+                    <ul class="project-features">
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="proj1-f1">Alto contraste e semântica inclusiva</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="proj1-f2">Navegabilidade total por teclado</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-i18n="proj1-f3">Validação prática em ambiente de ensino</span></li>
+                    </ul>
+                    <div class="project-techs">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JS ES6+</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://zrpires.github.io/jogo_da_memoria_acessibilidade" target="_blank" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="https://github.com/zrpires/jogo_da_memoria_acessibilidade" target="_blank" class="btn btn-outline"><i class="fab fa-github"></i> Source</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="terminal-section" class="terminal-container fade-in">
+            <div class="terminal-header">
+                <div class="terminal-buttons">
+                    <span class="close"></span>
+                    <span class="minimize"></span>
+                    <span class="maximize"></span>
+                </div>
+                <div class="terminal-title">bash - zerafael@portfolio ~</div>
+            </div>
+            <div class="terminal-body" id="terminal-body">
+                <div id="terminal-output"></div>
+                <div class="input-line">
+                    <span class="prompt">zerafael@portfolio:~$ </span>
+                    <input type="text" id="terminal-input" autocomplete="off" spellcheck="false" style="position: relative; z-index: 10;">
+                </div>
+            </div>
+            <div class="terminal-helper">
+                <p>💡 <span data-i18n="terminal-hint">Dica: Digite <kbd>help</kbd> e pressione Enter. (Ou digite <kbd>sith</kbd> / <kbd>poke</kbd> / <kbd>pref</kbd> para segredos)</span></p>
+            </div>
+        </section>
+    </main>
+
+    <audio id="sith-on-sound" src="https://www.myinstants.com/media/sounds/lightsaber_02.mp3" preload="auto"></audio>
+    <audio id="jedi-on-sound" src="https://www.myinstants.com/media/sounds/light-saber-on.mp3" preload="auto"></audio>
+
+    <script src="app.js"></script>
+</body>
+</html>
