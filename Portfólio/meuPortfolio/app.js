@@ -7,6 +7,8 @@ const translations = {
         'hero-role': '>&lt; Desenvolvedor de Software /&gt;',
         'hero-location': 'Floresta / Maringá, PR',
         'btn-contact': 'Contato',
+        'btn-demo': 'Ver Projeto Online',
+        'btn-source': 'Código Fonte',
         'hero-hint': 'Dica: Digite "sith", "poke" ou "pref" no seu teclado a qualquer momento.',
         
         'title-journey': 'Linha do Tempo & Formação',
@@ -40,6 +42,8 @@ const translations = {
         'hero-role': 'Software Developer /&gt;',
         'hero-location': 'Maringá, PR - Brazil',
         'btn-contact': 'Contact Me',
+        'btn-demo': 'Live Demo',
+        'btn-source': 'Source Code',
         'hero-hint': 'Hint: Type "sith", "poke" or "pref" on your keyboard at any time.',
         
         'title-journey': 'Timeline & Education',
