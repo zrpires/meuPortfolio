@@ -15,7 +15,7 @@
 
 Este projeto é a minha vitrine profissional. Muito mais do que um currículo estático, ele foi desenvolvido para demonstrar na prática minhas habilidades com **Front-end**, manipulação de DOM e lógica de programação. 
 
-🔗 **[Acesse o projeto online aqui](coloque-seu-link-do-vercel-aqui)**
+🔗 **[Acesse o projeto online aqui](portfoliodozrpires.vercel.app)**
 
 ---
 
