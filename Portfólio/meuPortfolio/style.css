@@ -157,6 +157,9 @@ body.sith-mode .floating-nav { background: rgba(30, 5, 5, 0.9); }
 .btn-email { background: rgba(255,255,255,0.1); color: white; border: 1px solid rgba(255,255,255,0.2); }
 .btn-email:hover { transform: translateY(-2px); background: rgba(255,255,255,0.2); box-shadow: 0 0 15px rgba(255,255,255,0.3); }
 
+.btn-demo { background: linear-gradient(45deg, var(--primary) 0%, #059669 100%); color: white !important; border: none; }
+.btn-demo:hover { transform: translateY(-2px); box-shadow: 0 0 15px var(--primary-glow); filter: brightness(1.1); }
+
 .section-title { font-size: 1.8rem; margin-bottom: 2rem; display: flex; align-items: center; gap: 0.8rem;}
 
 .timeline { padding: 2.5rem; position: relative; }
@@ -191,7 +194,7 @@ body.sith-mode .floating-nav { background: rgba(30, 5, 5, 0.9); }
     border-radius: 20px; font-size: 0.8rem; font-family: var(--font-mono);
 }
 body.sith-mode .tag { background: rgba(225, 29, 72, 0.1); }
-.project-actions { display: flex; gap: 1rem; }
+.project-actions { margin-top: 1.5rem; }
 
 .terminal-container { width: 100%; position: relative; z-index: 50; }
 .terminal-header {
