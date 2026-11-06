@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-jose-rafael",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node --check \"Portf\u00f3lio/meuPortfolio/app.js\" && node --check scripts/serve.mjs",
+    "test": "node --test tests/content.test.mjs",
+    "test:e2e": "node tests/browser.mjs",
+    "resume:pdf": "node scripts/resume-pdf.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.65.0",
+    "axe-core": "4.11.1"
+  }
+}
