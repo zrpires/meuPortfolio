@@ -20,11 +20,11 @@ try {
   await page.goto(server.url, { waitUntil: 'networkidle' });
   assert.equal(await page.locator('h1').count(), 1);
   assert.equal(await page.locator('article.project-card').count(), 4);
-  assert.equal(await page.locator('article.supporting-card').count(), 2);
+  assert.equal(await page.locator('article.supporting-card').count(), 1);
   assert.equal(await page.evaluate(() => document.activeElement.tagName), 'BODY');
   assert.equal(await page.evaluate(() => scrollY), 0);
   assert.equal(await page.locator('.hero').evaluate(el => getComputedStyle(el).opacity), '1');
-  console.log('PASS: immediate content, six projects and no focus/scroll hijacking');
+  console.log('PASS: immediate content, five projects and no focus/scroll hijacking');
 
   await page.locator('#language-toggle').click();
   assert.equal(await page.locator('html').getAttribute('lang'), 'en');
