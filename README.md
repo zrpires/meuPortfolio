@@ -10,6 +10,7 @@ Portfólio voltado a oportunidades de **desenvolvimento full-stack júnior**, co
 
 | Projeto | Demonstração | Código |
 | --- | --- | --- |
+| Várzuno | Nova publicação pendente; modo convidado local e contas com PostgreSQL | [GitHub](https://github.com/zrpires/varzuno) |
 | LojaDoZe | [Abrir loja](https://lojadoze-sigma.vercel.app/) | [GitHub](https://github.com/zrpires/LojaDoZe) |
 | AssistDoZe | [Abrir assistente](https://assistdoze.vercel.app/) | [GitHub](https://github.com/zrpires/AssistDoZe) |
 | IaAudio | [Abrir agente de voz](https://projetodeaudiodoze.vercel.app/) | [GitHub](https://github.com/zrpires/IaAudio) |

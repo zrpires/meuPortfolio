@@ -19,12 +19,12 @@ try {
   page.on('request', request => { if (!request.url().startsWith(server.url)) external.push(request.url()); });
   await page.goto(server.url, { waitUntil: 'networkidle' });
   assert.equal(await page.locator('h1').count(), 1);
-  assert.equal(await page.locator('article.project-card').count(), 3);
+  assert.equal(await page.locator('article.project-card').count(), 4);
   assert.equal(await page.locator('article.supporting-card').count(), 2);
   assert.equal(await page.evaluate(() => document.activeElement.tagName), 'BODY');
   assert.equal(await page.evaluate(() => scrollY), 0);
   assert.equal(await page.locator('.hero').evaluate(el => getComputedStyle(el).opacity), '1');
-  console.log('PASS: immediate content, five projects and no focus/scroll hijacking');
+  console.log('PASS: immediate content, six projects and no focus/scroll hijacking');
 
   await page.locator('#language-toggle').click();
   assert.equal(await page.locator('html').getAttribute('lang'), 'en');
@@ -72,7 +72,7 @@ try {
   const noJs = await browser.newContext({ javaScriptEnabled: false });
   const staticPage = await noJs.newPage();
   await staticPage.goto(server.url);
-  assert.equal(await staticPage.locator('article.project-card').count(), 3);
+  assert.equal(await staticPage.locator('article.project-card').count(), 4);
   assert.equal(await staticPage.locator('#language-toggle').isVisible(), false);
   assert.equal(await staticPage.locator('a[href="mailto:joseraffael2003@gmail.com"]').count(), 1);
   await staticPage.getByRole('link', { name: 'Explorar projetos' }).click();

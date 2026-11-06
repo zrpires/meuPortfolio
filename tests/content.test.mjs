@@ -21,9 +21,9 @@ test('all internal assets and section links resolve, including the résumé', ()
   assert.equal(readFileSync(resolve(site, 'assets/curriculo-jose-rafael.pdf')).subarray(0, 5).toString(), '%PDF-');
 });
 
-test('all five projects have source links and supplied Vercel links are exact', () => {
+test('all six projects have source links and supplied Vercel links are exact', () => {
   for (const url of ['https://projetodeaudiodoze.vercel.app/', 'https://lojadoze-sigma.vercel.app/', 'https://assistdoze.vercel.app/']) assert.ok(home.includes(`href="${url}"`));
-  for (const name of ['IaAudio', 'LojaDoZe', 'AssistDoZe', 'teste-pratico-iniflex', 'jogo_da_memoria_acessibilidade']) assert.ok(home.includes(`https://github.com/zrpires/${name}`));
+  for (const name of ['varzuno', 'IaAudio', 'LojaDoZe', 'AssistDoZe', 'teste-pratico-iniflex', 'jogo_da_memoria_acessibilidade']) assert.ok(home.includes(`https://github.com/zrpires/${name}`));
   assert.equal((home.match(/<h1\b/g) || []).length, 1);
   assert.ok(home.includes('em conclusão'));
   assert.ok(!home.includes('Previsão de Formatura'));

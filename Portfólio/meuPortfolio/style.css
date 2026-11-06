@@ -68,7 +68,7 @@ h1 > span { display: block; margin-top: 16px; max-width: 650px; color: var(--mut
 .section-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 40px; margin-bottom: 32px; }
 .section-heading h2 { margin-top: 10px; }
 .section-heading > p { max-width: 350px; font-size: .88rem; }
-.projects-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.projects-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
 .project-card { display: flex; flex-direction: column; border: 1px solid var(--line); background: var(--surface); border-radius: 12px; overflow: hidden; }
 .project-body { padding: 24px; display: flex; flex: 1; flex-direction: column; }
 .project-body h3 { font-size: 1.55rem; margin-top: 8px; }
@@ -217,3 +217,9 @@ p.skill-footnote { font-size: .73rem; margin-top: 18px; padding-top: 12px; borde
   .resume-page a { text-decoration: none; }
   .resume-page article { break-inside: avoid; }
 }
+
+.preview-football { background: #203d2d; color: #d7f5b0; }
+.football-pitch { position: relative; width: 170px; height: 94px; margin: auto; border: 1px solid #a1c58e; border-radius: 4px; display: grid; place-items: center; }
+.football-pitch::before { content: ''; position: absolute; left: 50%; top: 0; bottom: 0; border-left: 1px solid #a1c58e; }
+.football-pitch i { width: 42px; height: 42px; border: 1px solid #a1c58e; border-radius: 50%; position: absolute; }
+.football-pitch b { position: relative; background: #c5f06e; color: #182d20; padding: 5px 8px; border-radius: 6px; font-size: 1.2rem; }
